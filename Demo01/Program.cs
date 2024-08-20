@@ -19,9 +19,21 @@ namespace Demo01
             persona.AsignarNombresCompletos();
             Console.WriteLine(persona.NombresCompletos);
             Console.Read();
-            Rectangulo();
+
+            Profesor profesor = new Profesor
+            {
+                Nombres = "Hugo",
+                Apellidos = "Torrico",
+                Sueldo = 150000
+            };
+
+            Estudiante estudiante = new Estudiante
+            {
+                codigoEstudiante = 115157
+            };
         }
         static void Rectangulo()
+
         {
             Rectangulo rectangulo = new Rectangulo();
             rectangulo.Altura = 10;

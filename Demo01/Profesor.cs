@@ -9,5 +9,7 @@ namespace Demo01
     internal class Profesor
     {
         public double Sueldo { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
     }
 }
