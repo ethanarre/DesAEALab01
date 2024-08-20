@@ -9,5 +9,7 @@ namespace Demo01
     internal class Estudiante
     {
         public int codigoEstudiante { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
     }
 }
